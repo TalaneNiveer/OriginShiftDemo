@@ -4,9 +4,13 @@ Python demo of using OriginShift+DFS to generate 100% unique mazes
 This demo shows how using the Origin Shift method of moving the root node in a root-connected directional tree, following following a DFS maze generation algorithm instead of random walks guarantees a smooth transition to a completely new random state.
 
 Keyboard controls:
+
 Spacebar advances the algorithm one iteration
+
 'm' key: toggle 10FPS automatic iterations
+
 'q' key: quit
+
 
 The app displays the trivial maze on the left and then Origin-Shifts the root node along the path that the DFS algorithm uses for drawing a brand new maze from scratch on the right.
 
